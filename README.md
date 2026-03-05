@@ -8,6 +8,10 @@ to the telescopes traditional dome paddle circuitry. We're using an wireless X-B
 ## USB Host Shield Notes
 Game controller is supported as part of the [USB Host Shield library](https://github.com/felis/USB_Host_Shield_2.0)
 
-The shield is using SPI for communicating with the MAX3421E USB host controller. It uses the SCK, MISO and MOSI pins via the ICSP on your board.
+The shield uses pins 9-13 on an Arduino Uno.
 
-Note this means that it uses pin 13, 12, 11 on an Arduino Uno, so these pins can not be used for anything else than SPI communication!
+> The shield is using SPI for communicating with the MAX3421E USB host controller. It uses the SCK, MISO and MOSI pins via the ICSP on your board.
+> 
+> Note this means that it uses pin 13, 12, 11 on an Arduino Uno, so these pins can not be used for anything else than SPI communication!
+>
+> Furthermore it uses one pin as SS and one INT pin. These are by default located on pin 10 and 9 respectively. (SCK, MISO and MOSI pins via the ICSP on your board).
