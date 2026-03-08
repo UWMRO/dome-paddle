@@ -3050,6 +3050,16 @@
 		)
 		(uuid "fd631943-3628-42b5-83d2-0e9d4ad6f2c2")
 	)
+	(label "3{slash}8{slash}2026"
+		(at 208.28 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "007d30b5-12bb-41e6-92a4-8f7d6d31cb8c")
+	)
 	(label "A.A. Pisupati"
 		(at 207.01 196.85 0)
 		(effects
